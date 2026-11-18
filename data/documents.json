@@ -1,0 +1,17 @@
+[
+  {
+    "id": "doc_01",
+    "topic": "Git Workflow",
+    "content": "Always create a new branch before making changes, commit frequently, and open a Pull Request to submit."
+  },
+  {
+    "id": "doc_02",
+    "topic": "API Keys",
+    "content": "Store API keys inside a .env file and load them using python-dotenv. Never push secrets to GitHub."
+  },
+  {
+    "id": "doc_03",
+    "topic": "LLM Token Budget",
+    "content": "Keep prompts concise and pass only relevant retrieved documents to save API credits."
+  }
+]
